@@ -6,6 +6,8 @@
     <title>HTML Cheat Sheet</title>
 </head>
 <body>
+    <a href="blog.html">Go to blog</a>
+    <hr>
     <!-- Headings -->
     <h1>Heading One</h1>
     <h2>Heading Two</h2>
@@ -93,22 +95,22 @@
     <form action="process.php" method="POST">
         <div>
         <label>First Name</label>
-        <input type="text" name="firstName">
+        <input type="text" name="firstName" placeholder="Enter first name">
     </div>
     <br>
     <div>
         <label>Last Name</label>
-        <input type="text" name="lastName">
+        <input type="text" name="lastName" placeholder="Enter last name">
     </div>
     <br>
     <div>
         <label>Email Adress</label>
-        <input type="email" name="email">
+        <input type="email" name="email" placeholder="Enter email">
     </div>
     <br>
     <div>
         <label>Message</label>
-        <textarea name="message"></textarea>
+        <textarea name="message" placeholder="Enter message"></textarea>
     </div>
     <br>
     <div>
@@ -131,7 +133,34 @@
         <input type="date" name="birthday" >
     </div>
     <br>
+    <input type="submit" name="submit" value="Submit" >
     </form>
+
+    <!-- Button -->
+    <button>Click Me</button>
+
+    <br>
+
+    <!-- Image -->
+    <a href="images/sample.jpg">
+    <image src="images/sample.jpg" alt="My Sample Image" 
+    width="1200" height="300"></image>
+    </a>
+    <br>
+
+    <!-- Quotations -->
+    <blockquote cite="http://traversymedia.com">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Facilis autem, tempora quibusdam illo repellat dignissimos
+         accusantium sapiente nulla veritatis dicta eaque eveniet 
+         porro error perferendis possimus corporis suscipit temporibus 
+         dolores.
+    </blockquote>
+
+    <p>The <abbr title="World Wide Web">www</abbr>
+    is awesome</p>
+
+    <p><cite>HTML Exercise</cite> by Jerry Day</p>
 
     <div style="margin-top:500px"></div>
 </body>
